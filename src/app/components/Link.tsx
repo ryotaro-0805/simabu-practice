@@ -1,4 +1,4 @@
-import styles from '../../../css/Home.module.css'
+'use client'
 import Linlin from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -24,7 +24,7 @@ export function Link() {
                         <div className={`w-full duration-200 -translate-x-full bg-blue-500 h-0.5 ${handlePage ? 'group-hover:translate-x-0' : null} `}>
                         </div>
                     </Linlin>
-                    <p className={`text-blue-800 ${test ? 'text-3xl' : null}`}>test</p>
+                    <p className={`text-blue-800 ${test ? 'text-xl' : null}`}>test</p>
                 </div>
             </div>
         </>

@@ -1,6 +1,5 @@
-import Image from 'next/image'
+'use client'
 import { Headline } from './Headline'
-import { useEffect } from 'react'
 
 export function Main(props: any) {
     const content: string = 'test text';
