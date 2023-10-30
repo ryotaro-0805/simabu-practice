@@ -1,10 +1,8 @@
-'use client'
 import { Metadata } from 'next'
 import { Main } from './components/Main'
 import { Title } from './components/Title'
 import Image from 'next/image'
 import styles from '../../css/Home.module.css';
-import { useEffect } from 'react';
 import { Link } from './components/Link'
 
 export const metadata: Metadata = {
@@ -12,11 +10,6 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  const css = styles.test_p;
-  useEffect(() => {
-    console.log(css);
-  }, []);
-
   return (
     <>
       <Title title='main' />
