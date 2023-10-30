@@ -1,4 +1,3 @@
-'use client'
 import styles from '../../../css/Home.module.css'
 import Linlin from 'next/link';
 import { usePathname } from 'next/navigation';

@@ -1,4 +1,3 @@
-'use client'
 import { Metadata } from 'next'
 import { Main } from './components/Main'
 import { Title } from './components/Title'
